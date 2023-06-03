@@ -4,7 +4,7 @@ public class task2 {
 
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Enter a values:");
+            System.out.println("Enter a value:");
             String Char = scanner.nextLine();
             String Only = Char.replaceAll("[^a-zA-Z]", "");
             System.out.println(Only.toUpperCase());
