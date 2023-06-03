@@ -1,7 +1,8 @@
-package org.example;
+package example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello dsfsdfworld!");
+        System.out.println("Helsassslo world!");
     }
+
 }
