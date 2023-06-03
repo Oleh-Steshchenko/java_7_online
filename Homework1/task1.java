@@ -8,7 +8,7 @@ public class task1 {
         public static void main(String[] args) {
 
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Enter a values:");
+            System.out.println("Enter a value:");
             String number = scanner.nextLine();
             String numberOnly = number.replaceAll("[^0-9]", "");
             System.out.println(numberOnly);
