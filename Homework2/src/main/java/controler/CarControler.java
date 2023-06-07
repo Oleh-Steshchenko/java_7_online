@@ -40,6 +40,7 @@ public class CarControler {
     private static void create(BufferedReader bufferedReader) throws IOException {
         System.out.println("Please write the car brand you want:");
         System.out.println("We have: BMW,FORD,AUDI");
+        System.out.println("Please enter the name of the car so that all letters are capitalized");
         String BrandCar = bufferedReader.readLine();
     System.out.println("Please write in what body you want the car");
         String BodyType = bufferedReader.readLine();
