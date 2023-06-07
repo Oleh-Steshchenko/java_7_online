@@ -1,6 +1,6 @@
-package Dao;
+package dao;
 import entity.Cars;
-import entity.EntityVin;
+
 import java.util.Set;
 import java.util.UUID;
 import java.util.HashSet;

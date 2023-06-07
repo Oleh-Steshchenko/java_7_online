@@ -1,5 +1,5 @@
 package service;
-import Dao.CarDao;
+import dao.CarDao;
 import entity.Cars;
 public class CarService {
     private static CarDao carDao = new CarDao();
