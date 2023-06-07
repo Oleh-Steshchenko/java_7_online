@@ -11,9 +11,8 @@ public class CarService {
             System.out.println("We have great Ford cars");
             carDao.create(cars);
         } else if (cars.getBrandCar().equals("AUDI")) {
-            System.out.println("Great choice");
+            System.out.println("Great,Audi is a great car");
             carDao.create(cars);
-            System.out.println("Sorry, you made a mistake, please try again.");
         } else
             return;
         carDao.update(cars);
@@ -26,7 +25,7 @@ public class CarService {
             System.out.println("We have great Ford cars");
             carDao.update(cars);
         } else if (cars.getBrandCar().equals("AUDI")) {
-            System.out.println("We will help you find the best Audi car for you");
+            System.out.println("Great,Audi is a great car");
             carDao.update(cars);
         } else
             return;
