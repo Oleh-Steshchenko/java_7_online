@@ -1,6 +1,5 @@
 package dao;
 import entity.Cars;
-
 import java.util.Set;
 import java.util.UUID;
 import java.util.HashSet;
@@ -25,7 +24,8 @@ public class CarDao {
                 if (cars[i].getId().equals(car.getId())) {
                     cars[i] = car;
                 }
-            } catch (Exception e) {
+            }
+            catch (Exception e) {
                 i++;
             }
         }
