@@ -13,7 +13,7 @@ public class CarDao {
                 cars[i] = car;
                 Set<String> ids = new HashSet<>();
                 while (!ids.add(id))
-                    System.out.println("The Student ID: " +id+ " already exist.");
+                    System.out.println("The Car VIN: " +id+ " already exist.");
                     break;
             }
         }
