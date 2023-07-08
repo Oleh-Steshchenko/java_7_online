@@ -54,7 +54,8 @@ public class StreamController {
                     System.out.format(leftAlignFormat, word, rat[0]++, count, percent, sentencePercentage);
                 });
         printTableFooter();
-    } private static double getWordSentencePercentage(String word, String text) {
+    }
+    private static double getWordSentencePercentage(String word, String text) {
         String[] sentences = text.split("[.!?]");
         int numSentences = sentences.length;
         long numSentencesWithWord = Arrays.stream(sentences)
