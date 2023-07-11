@@ -10,12 +10,14 @@ import java.util.stream.Collectors;
 public class StreamController {
     public static void start() throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Welcome to the Text Statistics");
+        System.out.println("      WELCOME TO THE TEXT STATISTICS");
         while (true) {
-            System.out.println("Menu:");
-            System.out.println("For typing text, please enter - 1");
-            System.out.println("Exit, enter - 0");
-            System.out.print("Please enter your choice: ");
+            System.out.println("|-------------------------------------|");
+            System.out.println("|Menu:                                |");
+            System.out.println("|For typing text, please enter - 1    |");
+            System.out.println("|Exit, enter - 0                      |");
+            System.out.println("|-------------------------------------|");
+            System.out.println("Please enter your choice:");
             String choice = bufferedReader.readLine();
             switch (choice) {
                 case "1"->processText(bufferedReader);
